@@ -1,0 +1,68 @@
+#!/bin/bash
+#set -x 
+#####################################################################
+#   Script para retirar Status da CSM em relação aos equipamentos   #
+#   do Centro de servicos                                           #
+#                                                                   #
+#                                                                   #
+# Autor: Daniel                                                     #
+# Data:  09/05/2013                                                 #
+#####################################################################
+
+###Removendo os arquivos antigos.
+rm -f csm_pd_sw.txt
+rm -f log/csm_pd_sw1.txt
+rm -f log/csm_pd_sw.txt
+
+
+# VARIAVEIS para funcionamento do script
+ELEMENTOS="./elementos_pd_sw1.txt"
+DAYLIGHT="./csm_pd_sw1.exp"
+ 
+# Testa se o arquivo servidores.txt existe
+if [ ! -e ${ELEMENTOS} ]
+    then
+    echo "Arquivo $ELEMENTOS não encontrado."
+    exit 1
+fi
+ 
+# Ler o arquivo ${ELEMENTOS} e processar cada linha que contém informações
+# acerca da conexão
+cat ${ELEMENTOS} | while read LINHA
+do
+    # Joga os campos em variáveis
+    HOST=$(echo ${LINHA} | cut -d',' -f1)
+    USERNORMAL=$(echo ${LINHA} | cut -d',' -f2)
+    USERPASSWD=$(echo ${LINHA} | cut -d',' -f3)
+    ROOTPASSWD=$(echo ${LINHA} | cut -d',' -f4)
+ 
+    # Teste sobre repasse das variáveis
+    #echo ${HOST}
+    #echo ${USERNORMAL}
+    #echo ${USERPASSWD}
+    #echo ${ROOTPASSWD}
+ 
+    # Chama o arquivo expect com os parâmetros coletados
+    # Testa se o expect existe
+    if [ ! -e ${DAYLIGHT} ]
+        then
+        echo "Arquivo com script expect ${DAYLIGHT} não encontrado"
+        exit 1
+    else
+        # Garantir que o arquivo tenha permissão de execução
+        chmod 755 ${DAYLIGHT}
+ 
+        # imprimir na tela o comando que esta sendo executado
+        #echo "${DAYLIGHT} ${HOST} ${USERNORMAL} ${USERPASSWD} ${ROOTPASSWD}"
+ 
+        # executar o script expect com os parametros
+        ${DAYLIGHT} ${HOST} ${USERNORMAL} ${USERPASSWD} ${ROOTPASSWD}
+    fi
+
+###Tratando os logs ao final
+touch log/csm_pd_sw.txt | echo "real;servfarm;weight;state;conns/hits" > log/csm_pd_sw.txt |grep -v "-" csm_pd_sw.txt|grep -v terminal |sed 's/server farm/servfarm/g' | grep -v "#" |grep -v real |awk -F" " '{print $1";"$2";"$3";"$4";"$5}' | sed 's/;;;;//g'  >> log/csm_pd_sw.txt
+egrep "real|187" log/csm_pd_sw.txt > log/br-psa-pd-sw1.txt
+
+
+ 
+done

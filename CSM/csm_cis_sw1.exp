@@ -1,0 +1,56 @@
+#!/usr/bin/expect -f
+#
+set force_conservative 0;
+if {$force_conservative} {
+    set send_slow {1 .1}
+    proc send {ignore arg} {
+        sleep .1
+        exp_send -s -- $arg
+    }
+}
+ 
+# argv 0 = host a ser conectado
+# argv 1 = usuario para conexao SSH
+# argv 2 = senha do usuario
+# argv 3 = senha do root
+
+set timeout -1
+spawn $env(SHELL)
+match_max 100000
+
+###Connectando na GESA
+send -- "ssh -q -l USER xxx.xxx.xxx.xxx\r"
+expect "word:"
+send -- "USERPASSD\r"
+expect "# "
+
+
+###Conectando na CSM
+send -- "ssh -q [lindex $argv 0]\r"
+expect "word: "
+send -- "[lindex $argv 2]\r"
+expect "\>"
+send -- "en\r"
+expect "word: "
+send -- "[lindex $argv 3]\r"
+expect "#"
+
+
+###Aqui podemos alterar a saída do log que deve ser tratado depois para remover as informações que não são necessárias
+
+log_file -a csm_cis_sw.txt
+
+###
+
+send -- "terminal length 0\r"
+expect "#"
+send -- "sh mod csm 1 real\r"
+expect "#"
+
+send -- "sh mod csm 2 real\r"
+expect "#"
+
+send -- "quit\r"
+expect "# "
+
+send -- "exit\r"

@@ -1,0 +1,71 @@
+terminal length 0
+br-spo-pd-psa-sw02#sh mod csm 1 real
+
+real                  server farm      weight  state          conns/hits
+-------------------------------------------------------------------------
+187.100.250.12:1645   PSA_RADIUS_1645  50      OPERATIONAL    0        
+187.100.250.13:1645   PSA_RADIUS_1645  50      OUTOFSERVICE   0        
+187.100.250.14:1645   PSA_RADIUS_1645  50      OPERATIONAL    0        
+187.100.250.15:1645   PSA_RADIUS_1645  50      OPERATIONAL    0        
+187.100.250.11:1645   PSA_RADIUS_1645  50      OPERATIONAL    0        
+187.100.250.12:1646   PSA_RADIUS_1646  50      OPERATIONAL    0        
+187.100.250.13:1646   PSA_RADIUS_1646  50      OUTOFSERVICE   0        
+187.100.250.14:1646   PSA_RADIUS_1646  50      OPERATIONAL    0        
+187.100.250.15:1646   PSA_RADIUS_1646  50      OPERATIONAL    0        
+187.100.250.11:1646   PSA_RADIUS_1646  50      OPERATIONAL    0        
+187.100.250.12:1812   PSA_RADIUS_1812  50      OPERATIONAL    0        
+187.100.250.13:1812   PSA_RADIUS_1812  50      OUTOFSERVICE   0        
+187.100.250.14:1812   PSA_RADIUS_1812  50      OPERATIONAL    0        
+187.100.250.15:1812   PSA_RADIUS_1812  50      OPERATIONAL    0        
+187.100.250.11:1812   PSA_RADIUS_1812  50      OPERATIONAL    0        
+187.100.250.12:1813   PSA_RADIUS_1813  50      OPERATIONAL    0        
+187.100.250.13:1813   PSA_RADIUS_1813  50      OUTOFSERVICE   0        
+187.100.250.14:1813   PSA_RADIUS_1813  50      OPERATIONAL    0        
+187.100.250.15:1813   PSA_RADIUS_1813  50      OPERATIONAL    0        
+187.100.250.11:1813   PSA_RADIUS_1813  50      OPERATIONAL    0        
+br-spo-pd-psa-sw02#sh mod csm 2 real
+
+real                  server farm      weight  state          conns/hits
+-------------------------------------------------------------------------
+187.100.250.42:8086   SESM_ISP8086     8       OUTOFSERVICE   0        
+187.100.250.43:8086   SESM_ISP8086     8       OUTOFSERVICE   0        
+187.100.250.44:8086   SESM_ISP8086     8       OPERATIONAL    0        
+187.100.250.45:8086   SESM_ISP8086     8       OPERATIONAL    0        
+187.100.250.46:8086   SESM_ISP8086     8       OPERATIONAL    0        
+187.100.250.42:8086   SESM_ISP8086_T   8       OUTOFSERVICE   0        
+187.100.250.43:8086   SESM_ISP8086_T   8       OUTOFSERVICE   0        
+187.100.250.44:8086   SESM_ISP8086_T   8       OUTOFSERVICE   0        
+187.100.250.45:8086   SESM_ISP8086_T   8       OPERATIONAL    0        
+187.100.250.46:8086   SESM_ISP8086_T   8       OPERATIONAL    0        
+187.100.250.42:8083   SESM_IST8083     8       OUTOFSERVICE   0        
+187.100.250.43:8083   SESM_IST8083     8       OUTOFSERVICE   0        
+187.100.250.44:8083   SESM_IST8083     8       OPERATIONAL    0        
+187.100.250.45:8083   SESM_IST8083     8       OPERATIONAL    0        
+187.100.250.46:8083   SESM_IST8083     8       OPERATIONAL    0        
+187.100.250.42:8085   SESM_WPP8085     8       OUTOFSERVICE   0        
+187.100.250.43:8085   SESM_WPP8085     8       OUTOFSERVICE   0        
+187.100.250.44:8085   SESM_WPP8085     8       OPERATIONAL    0        
+187.100.250.45:8085   SESM_WPP8085     8       OPERATIONAL    0        
+187.100.250.46:8085   SESM_WPP8085     8       OPERATIONAL    0        
+187.100.250.42:86     SESM_WSC80.86    8       OUTOFSERVICE   0        
+187.100.250.43:86     SESM_WSC80.86    8       OUTOFSERVICE   0        
+187.100.250.44:86     SESM_WSC80.86    8       OPERATIONAL    0        
+187.100.250.45:86     SESM_WSC80.86    8       OPERATIONAL    0        
+187.100.250.46:86     SESM_WSC80.86    8       OPERATIONAL    0        
+187.100.250.42:8084   SESM_WSP8084     8       OUTOFSERVICE   0        
+187.100.250.43:8084   SESM_WSP8084     8       OUTOFSERVICE   0        
+187.100.250.44:8084   SESM_WSP8084     8       OPERATIONAL    0        
+187.100.250.45:8084   SESM_WSP8084     8       OPERATIONAL    0        
+187.100.250.46:8084   SESM_WSP8084     8       OPERATIONAL    0        
+187.100.250.42:8083   SESM_WCC8083     8       OPERATIONAL    0        
+187.100.250.43:8083   SESM_WCC8083     8       OPERATIONAL    0        
+187.100.250.44:8083   SESM_WCC8083     8       OUTOFSERVICE   0        
+187.100.250.45:8083   SESM_WCC8083     8       OUTOFSERVICE   0        
+187.100.250.46:8083   SESM_WCC8083     8       OUTOFSERVICE   0        
+187.100.250.52:80     REDIRETORES_80   8       OPERATIONAL    0        
+187.100.250.53:80     REDIRETORES_80   8       OPERATIONAL    0        
+187.100.250.54:80     REDIRETORES_80   8       OPERATIONAL    0        
+187.100.250.56:80     REDIRETORES_80   8       OPERATIONAL    0        
+br-spo-pd-psa-sw02#quit
+Connection to br-spo-pd-psa-sw2 closed by remote host.
+[r339054@gbrssh2:~]# 
