@@ -1,0 +1,150 @@
+#!/usr/bin/expect -f
+#
+set force_conservative 0;
+if {$force_conservative} {
+    set send_slow {1 .1}
+    proc send {ignore arg} {
+        sleep .1
+        exp_send -s -- $arg
+    }
+}
+ 
+# argv 0 = host a ser conectado
+# argv 1 = usuario para conexao SSH
+# argv 2 = senha do usuario
+# argv 3 = senha do root
+set timeout -1
+spawn $env(SHELL)
+match_max 100000
+send -- "ssh -q -l "user_gesa" 200.204.1.4\r"
+expect "word:"
+send -- "password_do_usuario\r"
+expect "\$ "
+send -- "scp Sao_Paulo.zic -l [lindex $argv 1] [lindex $argv 0]:/tmp\r"
+expect "word:"
+send -- "[lindex $argv 2]\r"
+expect "$ "
+send -- "ssh -q -l [lindex $argv 1] [lindex $argv 0]\r"
+expect "word: "
+send -- "[lindex $argv 2]\r"
+expect "$ "
+send -- "su -\r"
+expect "word: "
+send -- "[lindex $argv 3]\r"
+expect "# "
+send -- "cp /usr/share/lib/zoneinfo/America/Sao_Paulo.zic /usr/share/lib/zoneinfo/America/Sao_Paulo.zic_bkp_2012\r"
+expect "# "
+send -- "mv /tmp/Sao_Paulo.zic /usr/share/lib/zoneinfo/America\r"
+expect "# "
+send -- "chown root:root /usr/share/lib/zoneinfo/America/Sao_Paulo.zic\r"
+expect "# "
+send -- "chmod 644 /usr/share/lib/zoneinfo/America/Sao_Paulo.zic\r"
+expect "# "
+
+###Aqui podemos alterar a saída do log que deve ser tratado depois para remover as informações que não são necessárias
+
+log_file -a logs/log_gerencia.txt
+
+###
+
+send -- "echo '====== Hostname ======'\r"
+expect "# "
+
+send -- "hostname\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Variavel TZ antes do comando zic ======'\r"
+expect "# "
+
+send -- "env |grep TZ\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Data antes do comando zic ======'\r"
+expect "# "
+
+send -- "date\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== BKP do arquivo antigo ======'\r"
+expect "# "
+
+send -- "ls -l /usr/share/lib/zoneinfo/America/Sao_Paulo* |awk \'{print \$6,\$7,\$8,\$9}\'\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Servidor utilizado para atualizacao ======'\r"
+expect "# "
+
+send -- "ntpq -p\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+
+send -- "echo '====== Novo arquivo Sao_Paulo.zic ======'\r"
+expect "# "
+
+send -- "cat /usr/share/lib/zoneinfo/America/Sao_Paulo.zic\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Executando o comando zic ======'\r"
+expect "# "
+
+send -- "zic /usr/share/lib/zoneinfo/America/Sao_Paulo.zic\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Comando zdump ======'\r"
+expect "# "
+
+send -- "zdump -v America/Sao_Paulo\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Data depois do comando zic ======'\r"
+expect "# "
+
+send -- "date\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo '====== Variavel TZ depois do comando zic ======'\r"
+expect "# "
+
+send -- "env |grep TZ\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "echo\r"
+expect "# "
+
+send -- "exit\r"
+expect "\$ "
+
+send -- "exit\r"
+expect "\$ "
+
+send -- "exit\r"

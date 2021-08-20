@@ -1,0 +1,51 @@
+#!/bin/bash
+
+#Inserindo caminhos no NRPE
+
+#echo "command[check_ssh]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_ssh -H localhost -t 2" >> /opt/csw/etc/checkcommands.cfg
+echo "command[check_ssh]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_ssh -H localhost -t 2" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg
+#echo "command[check_tcp]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_tcp -H localhost -p 9023" >> /opt/csw/etc/checkcommands.cfg
+echo "command[check_tcp]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_tcp -H localhost -p 9023" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg
+#echo "command[check_cuenta_cdr_backup]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta -d /var/PSA/8950AAA/cdrsSesion/backup" >> /opt/csw/etc/checkcommands.cfg
+#echo "command[check_cuenta_cdr_backup]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta -d /var/PSA/8950AAA/cdrsSesion/backup" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg
+echo "command[check_cuenta_cdr_backup]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta_backup -d /var/opt/psbatlatam/br/NavisRadius/cdrsServicio/backup" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg
+
+#Fazendo copia da libexec de checagem
+
+#cp /opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta /opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta_backup
+
+#Dando permissão para a lib
+#chown tpd:other /opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta_backup
+#chown gestion:gestion /opt/install/psbatlatam/nrpe-2.0/libexec/check_cuenta_backup
+
+
+#Restart do NRPE
+# Via SVC
+#svcadm restart svc:/application/cswnrpe:default
+
+# Via init.d
+/etc/init.d/nrpe restart
+
+#Removendo arquivo
+rm -rf nrpe.sh
+
+
+
+#/bin/bash
+
+# NRPE dos SESM's
+
+echo "command[check_tcp]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_tcp -H localhost -p 38018" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg"
+echo "command[check_tcp]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_tcp -H localhost -p 38017" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg"
+echo "command[check_tcp]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_tcp -H localhost -p 38117" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg"
+echo "command[check_ssh]=/opt/install/psbatlatam/nrpe-2.0/libexec/check_ssh -H localhost -t 2" >> /opt/install/psbatlatam/nrpe-2.0/etc/checkcommands.cfg"
+
+#Restart do NRPE
+
+# Via init.d
+/etc/init.d/nrpe restart
+
+#Removendo arquivo
+rm -rf nrpe.sh
+
+

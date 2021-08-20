@@ -1,0 +1,35 @@
+====== Hostname ======
+te-br-spo-tic-dns1
+
+
+Sat Feb 16 23:54:03 BRT 2013
+
+
+====== Hostname ======
+te-br-spo-ib-dns2
+
+
+Sat Feb 16 23:54:04 BRT 2013
+
+
+====== Hostname ======
+te-br-spo-tic-resolver2
+
+
+Sat Feb 16 23:54:05 BRT 2013
+
+
+====== Hostname ======
+te-br-spo-ib-resolver3
+
+
+Sat Feb 16 23:54:06 BRT 2013
+
+
+====== Hostname ======
+te-br-spo-ib-resolver4
+
+
+Sat Feb 16 23:54:07 BRT 2013
+
+

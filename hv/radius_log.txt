@@ -1,0 +1,625 @@
+hostname
+br-psa-pd-rd01
+root@br-psa-pd-rd01 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd01 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd01 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd01 # echo
+
+root@br-psa-pd-rd01 # echo
+
+exit
+root@br-psa-pd-rd01 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd02
+root@br-psa-pd-rd02 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd02 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd02 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd02 # echo
+
+root@br-psa-pd-rd02 # echo
+
+exit
+root@br-psa-pd-rd02 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd03
+root@br-psa-pd-rd03 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd03 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd03 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd03 # echo
+
+root@br-psa-pd-rd03 # echo
+
+root@br-psa-pd-rd03 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd04
+root@br-psa-pd-rd04 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd04 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+cat: cannot open /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+root@br-psa-pd-rd04 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd04 # echo
+
+root@br-psa-pd-rd04 # echo
+
+root@br-psa-pd-rd04 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd05
+root@br-psa-pd-rd05 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd05 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+cat: cannot open /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+root@br-psa-pd-rd05 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd05 # echo
+
+root@br-psa-pd-rd05 # echo
+
+root@br-psa-pd-rd05 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd06
+root@br-psa-pd-rd06 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd06 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd06 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd06 # echo
+
+root@br-psa-pd-rd06 # echo
+
+root@br-psa-pd-rd06 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd07
+root@br-psa-pd-rd07 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd07 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd07 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd07 # echo
+
+root@br-psa-pd-rd07 # echo
+exit
+
+root@br-psa-pd-rd07 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd08
+root@br-psa-pd-rd08 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd08 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd08 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd08 # echo
+
+root@br-psa-pd-rd08 # echo
+
+root@br-psa-pd-rd08 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd09
+root@br-psa-pd-rd09 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd09 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd09 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd09 # echo
+
+root@br-psa-pd-rd09 # echo
+
+root@br-psa-pd-rd09 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-pd-rd10
+root@br-psa-pd-rd10 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd10 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-pd-rd10 # echo --------------------------------
+--------------------------------
+root@br-psa-pd-rd10 # echo
+
+root@br-psa-pd-rd10 # echo
+
+root@br-psa-pd-rd10 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd01
+root@br-psa-cis-rd01 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd01 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+cat: cannot open /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+root@br-psa-cis-rd01 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd01 # echo
+
+root@br-psa-cis-rd01 # echo
+
+root@br-psa-cis-rd01 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd02
+root@br-psa-cis-rd02 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd02 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+cat: cannot open /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+root@br-psa-cis-rd02 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd02 # echo
+
+root@br-psa-cis-rd02 # echo
+
+root@br-psa-cis-rd02 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd03
+root@br-psa-cis-rd03 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd03 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd03 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd03 # echo
+
+root@br-psa-cis-rd03 # echo
+
+root@br-psa-cis-rd03 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd04
+root@br-psa-cis-rd04 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd04 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd04 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd04 # echo
+
+root@br-psa-cis-rd04 # echo
+
+root@br-psa-cis-rd04 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd05
+root@br-psa-cis-rd05 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd05 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+cat: cannot open /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+root@br-psa-cis-rd05 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd05 # echo
+
+root@br-psa-cis-rd05 # echo
+
+root@br-psa-cis-rd05 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd06
+root@br-psa-cis-rd06 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd06 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd06 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd06 # echo
+
+root@br-psa-cis-rd06 # echo
+
+root@br-psa-cis-rd06 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd07
+root@br-psa-cis-rd07 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd07 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd07 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd07 # echo
+
+root@br-psa-cis-rd07 # echo
+
+root@br-psa-cis-rd07 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd08
+root@br-psa-cis-rd08 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd08 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd08 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd08 # echo
+
+root@br-psa-cis-rd08 # echo
+
+root@br-psa-cis-rd08 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd09
+root@br-psa-cis-rd09 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd09 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd09 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd09 # echo
+
+root@br-psa-cis-rd09 # echo
+
+root@br-psa-cis-rd09 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ hostname
+br-psa-cis-rd10
+root@br-psa-cis-rd10 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd10 # cat /opt/PSA/8950AAA/run/ConfigFiles/log4j.properties
+# $Id: log4j.properties,v 1.2 2006/01/20 11:14:07 cvsuser Exp $
+log4j.rootLogger=DEBUG,console,file,trap
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.console.layout.TimeZone=UTC
+log4j.appender.console.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file=es.tid.psstlatam.util.log4j.LimitedDailyRollingFileAppender
+log4j.appender.file.File=/opt/install/psbatlatam/NavisRadius_br/run/log/APIlog.log
+log4j.appender.file.DatePattern='.'yyyy-MM-dd
+log4j.appender.file.layout=es.tid.psstlatam.util.log4j.TimeZonePatternLayout
+log4j.appender.file.layout.TimeZone=UTC
+log4j.appender.file.layout.ConversionPattern=%d %-5p [%c{2}]: %m\n
+log4j.appender.file.MaxFileSize=25MB
+log4j.appender.file.MaxBackupIndex=10
+log4j.appender.trap=es.tid.psstlatam.util.log4j.SNMPTrapAppender
+log4j.appender.trap.HostAddress=10.95.85.196
+log4j.appender.trap.EnterpriseOID=1.3.6.1.4.1.5189.9173
+log4j.appender.trap.Community=public
+log4j.appender.trap.DateFormat=dd/MM/yyyy HH:mm:ss
+log4j.appender.trap.Subsystem=${subsystem}
+log4j.debug=true
+root@br-psa-cis-rd10 # echo --------------------------------
+--------------------------------
+root@br-psa-cis-rd10 # echo
+
+root@br-psa-cis-rd10 # echo
+
+exit
+root@br-psa-cis-rd10 # exit
+logout
+-bash-3.00$ exit
+logout
+-rbash-4.2$ 

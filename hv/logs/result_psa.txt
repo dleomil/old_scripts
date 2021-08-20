@@ -1,0 +1,294 @@
+====== Hostname ======
+br-psa-pd-rd01
+
+
+Sat Feb 16 23:27:59 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd02
+
+
+Sat Feb 16 23:28:01 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd03
+
+
+Sat Feb 16 23:28:03 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd04
+
+
+Sat Feb 16 23:28:05 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd05
+
+
+Sat Feb 16 23:28:08 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd06
+
+
+Sat Feb 16 23:28:10 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd07
+
+
+Sat Feb 16 23:28:12 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd08
+
+
+Sat Feb 16 23:28:14 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd09
+
+
+Sat Feb 16 23:28:16 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-rd10
+
+
+Sat Feb 16 23:28:18 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd01
+
+
+Sat Feb 16 23:28:20 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd02
+
+
+Sat Feb 16 23:28:21 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd03
+
+
+Sat Feb 16 23:28:23 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd04
+
+
+Sat Feb 16 23:28:24 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd05
+
+
+Sat Feb 16 23:28:26 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd06
+
+
+Sat Feb 16 23:28:27 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd07
+
+
+Sat Feb 16 23:28:30 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd08
+
+
+Sat Feb 16 23:28:32 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-rd09
+
+
+Saturday, February 16, 2013 11:28:34 PM BRT
+
+
+====== Hostname ======
+br-psa-cis-rd10
+
+
+Saturday, February 16, 2013 11:28:35 PM BRT
+
+
+====== Hostname ======
+br-psa-pd-se01
+
+
+Sat Feb 16 23:28:38 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se02
+
+
+Sat Feb 16 23:28:40 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se03
+
+
+Sat Feb 16 23:28:42 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se04
+
+
+Sat Feb 16 23:28:49 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se05
+
+
+Sat Feb 16 23:28:56 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se06
+
+
+Sat Feb 16 23:28:59 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se07
+
+
+Sat Feb 16 23:29:01 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-se08
+
+
+Sat Feb 16 23:29:03 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-se01
+
+
+Sat Feb 16 23:29:06 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-se02
+
+
+Sat Feb 16 23:29:08 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-se03
+
+
+Sat Feb 16 23:29:10 BRT 2013
+
+
+====== Hostname ======
+br-psa-cis-se04
+
+
+Saturday, February 16, 2013 11:29:12 PM BRT
+
+
+====== Hostname ======
+br-psa-cis-se05
+
+
+Saturday, February 16, 2013 11:29:15 PM BRT
+
+
+====== Hostname ======
+br-psa-cis-se06
+
+
+Saturday, February 16, 2013 11:29:22 PM BRT
+
+
+====== Hostname ======
+br-psa-cis-se07
+
+
+Saturday, February 16, 2013 11:29:23 PM BRT
+
+
+====== Hostname ======
+br-psa-cis-se08
+
+
+Saturday, February 16, 2013 11:29:25 PM BRT
+
+
+====== Hostname ======
+br-psa-cis-se09
+
+
+Saturday, February 16, 2013 11:29:27 PM BRT
+
+
+====== Hostname ======
+br-psa-pd-pr01
+
+
+Sat Feb 16 23:29:32 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-pr02
+
+
+Sat Feb 16 23:29:38 BRT 2013
+
+
+====== Hostname ======
+br-psa-pd-mdb0
+
+
+Saturday, February 16, 2013 11:29:43 PM BRT
+
+
+====== Hostname ======
+br-psa-pd-mdb1
+
+
+Saturday, February 16, 2013 11:29:48 PM BRT
+
+
+====== Hostname ======
+br-psa-pd-nb01-bkp
+
+
+Saturday, February 16, 2013 11:29:50 PM BRT
+
+

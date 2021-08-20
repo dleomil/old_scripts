@@ -1,0 +1,910 @@
+====== Hostname ======
+PortAuthority1
+
+====== Variavel TZ antes do comando zic ======
+TZ=Brazil/East
+
+====== Data antes do comando zic ======
+Tue Jan 29 08:17:14 EDT 2013
+
+====== BKP do arquivo antigo ======
+Jan 9 2000 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 08:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*gbrcon1         192.36.143.150   2 u  367 1024  377     3.23   -0.422    0.34
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:16 2013 UTC = Tue Jan 29 08:17:16 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:16 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=Brazil/East
+
+
+====== Hostname ======
+PortAuthority3
+
+====== Variavel TZ antes do comando zic ======
+TZ=
+
+====== Data antes do comando zic ======
+Tue Jan 29 08:17:21 EDT 2013
+
+====== BKP do arquivo antigo ======
+Jan 9 2000 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 08:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*200.204.1.103   192.36.143.150   2 u  460 1024  377     4.10    0.237    0.40
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:21 2013 UTC = Tue Jan 29 08:17:21 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:23 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=
+
+
+====== Hostname ======
+PortAuthority5
+
+====== Variavel TZ antes do comando zic ======
+TZ=
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:17:26 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*200.204.1.103   192.36.143.150   2 u  637 1024  377     3.46   -0.120    0.11
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:27 2013 UTC = Tue Jan 29 08:17:27 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:28 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=
+
+
+====== Hostname ======
+PortAuthority9
+
+====== Variavel TZ antes do comando zic ======
+TZ=Brazil/East
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:17:33 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*gbrcon1         192.36.143.150   2 u   37 1024  377     3.49    0.215    0.23
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:34 2013 UTC = Tue Jan 29 08:17:34 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:35 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=Brazil/East
+
+
+====== Hostname ======
+PortAuthority11
+
+====== Variavel TZ antes do comando zic ======
+TZ=
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:17:39 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*200.204.1.103   192.36.143.150   2 u  798 1024  377     3.30   -0.197    0.17
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:40 2013 UTC = Tue Jan 29 08:17:40 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:41 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=
+
+
+====== Hostname ======
+PortAuthority2
+
+====== Variavel TZ antes do comando zic ======
+TZ=
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:17:44 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*200.204.1.103   192.36.143.150   2 u  940 1024  377     1.98   -0.043    0.20
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:44 2013 UTC = Tue Jan 29 08:17:44 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:45 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=
+
+
+====== Hostname ======
+PortAuthority8
+
+====== Variavel TZ antes do comando zic ======
+TZ=Brazil/East
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:17:48 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*200.204.1.103   192.36.143.150   2 u   43  128  377     1.82    0.098    0.08
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:48 2013 UTC = Tue Jan 29 08:17:48 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:49 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=Brazil/East
+
+
+====== Hostname ======
+PortAuthority12
+
+====== Variavel TZ antes do comando zic ======
+TZ=Brazil/East
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:17:52 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*gbrcon1         192.36.143.150   2 u  163 1024  377     1.72   -0.324    0.26
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:17:54 2013 UTC = Tue Jan 29 08:17:54 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:17:54 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=Brazil/East
+
+
+====== Hostname ======
+PortAuthority4
+
+====== Variavel TZ antes do comando zic ======
+TZ=
+
+====== Data antes do comando zic ======
+Tue Jan 29 07:19:00 BRT 2013
+
+====== BKP do arquivo antigo ======
+Oct 14 2011 /usr/share/lib/zoneinfo/Brazil/East
+Jan 29 07:17 /usr/share/lib/zoneinfo/Brazil/East.zic
+
+====== Servidor utilizado para atualizacao ======
+     remote           refid      st t when poll reach   delay   offset    disp
+==============================================================================
+*200.204.1.103   192.36.143.150   2 u   95 1024  377     2.50    0.151    0.23
+
+====== Novo arquivo Sao_Paulo.zic ======
+Rule Brazil 2010 only - Oct 17 00:00 1 S
+Rule Brazil 2011 only - Feb 20 00:00 0 -
+Rule Brazil 2011 only - Oct 16 00:00 1 S
+Rule Brazil 2012 only - Feb 26 00:00 0 -
+Rule Brazil 2012 only - Oct 21 00:00 1 S
+Rule Brazil 2013 only - Feb 17 00:00 0 -
+Rule Brazil 2013 only - Oct 20 00:00 1 S
+Rule Brazil 2014 only - Feb 16 00:00 0 -
+Rule Brazil 2014 only - Oct 19 00:00 1 S
+Rule Brazil 2015 only - Feb 22 00:00 0 -
+Rule Brazil 2015 only - Oct 18 00:00 1 S
+Rule Brazil 2016 only - Feb 21 00:00 0 -
+Rule Brazil 2016 only - Oct 16 00:00 1 S
+Rule Brazil 2017 only - Feb 19 00:00 0 -
+Rule Brazil 2017 only - Oct 15 00:00 1 S
+Rule Brazil 2018 only - Feb 18 00:00 0 -
+Rule Brazil 2018 only - Oct 21 00:00 1 S
+Rule Brazil 2019 only - Feb 17 00:00 0 -
+Rule Brazil 2019 only - Oct 20 00:00 1 S
+Rule Brazil 2020 only - Feb 16 00:00 0 -
+Rule Brazil 2020 only - Oct 18 00:00 1 S
+
+Zone Brazil/East -3:00 Brazil BR%sT
+
+====== Executando o comando zic ======
+
+====== Comando zdump ======
+Brazil/East  Tue Jan 29 10:20:24 2013 UTC = Tue Jan 29 08:20:24 2013 BRST isdst=1
+Brazil/East  Fri Dec 13 20:45:52 1901 UTC = Fri Dec 13 18:45:52 1901 BRST isdst=0
+Brazil/East  Sat Dec 14 20:45:52 1901 UTC = Sat Dec 14 18:45:52 1901 BRST isdst=0
+Brazil/East  Sun Oct 17 02:59:59 2010 UTC = Sun Oct 17 00:59:59 2010 BRST isdst=0
+Brazil/East  Sun Oct 17 03:00:00 2010 UTC = Sun Oct 17 01:00:00 2010 BRST isdst=1
+Brazil/East  Sun Feb 20 01:59:59 2011 UTC = Sat Feb 19 23:59:59 2011 BRST isdst=1
+Brazil/East  Sun Feb 20 02:00:00 2011 UTC = Sat Feb 19 23:00:00 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2011 UTC = Sat Oct 15 23:59:59 2011 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2011 UTC = Sun Oct 16 01:00:00 2011 BRST isdst=1
+Brazil/East  Sun Feb 26 01:59:59 2012 UTC = Sat Feb 25 23:59:59 2012 BRST isdst=1
+Brazil/East  Sun Feb 26 02:00:00 2012 UTC = Sat Feb 25 23:00:00 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2012 UTC = Sat Oct 20 23:59:59 2012 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2012 UTC = Sun Oct 21 01:00:00 2012 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2013 UTC = Sat Feb 16 23:59:59 2013 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2013 UTC = Sat Feb 16 23:00:00 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2013 UTC = Sat Oct 19 23:59:59 2013 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2013 UTC = Sun Oct 20 01:00:00 2013 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2014 UTC = Sat Feb 15 23:59:59 2014 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2014 UTC = Sat Feb 15 23:00:00 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 02:59:59 2014 UTC = Sat Oct 18 23:59:59 2014 BRT isdst=0
+Brazil/East  Sun Oct 19 03:00:00 2014 UTC = Sun Oct 19 01:00:00 2014 BRST isdst=1
+Brazil/East  Sun Feb 22 01:59:59 2015 UTC = Sat Feb 21 23:59:59 2015 BRST isdst=1
+Brazil/East  Sun Feb 22 02:00:00 2015 UTC = Sat Feb 21 23:00:00 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2015 UTC = Sat Oct 17 23:59:59 2015 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2015 UTC = Sun Oct 18 01:00:00 2015 BRST isdst=1
+Brazil/East  Sun Feb 21 01:59:59 2016 UTC = Sat Feb 20 23:59:59 2016 BRST isdst=1
+Brazil/East  Sun Feb 21 02:00:00 2016 UTC = Sat Feb 20 23:00:00 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 02:59:59 2016 UTC = Sat Oct 15 23:59:59 2016 BRT isdst=0
+Brazil/East  Sun Oct 16 03:00:00 2016 UTC = Sun Oct 16 01:00:00 2016 BRST isdst=1
+Brazil/East  Sun Feb 19 01:59:59 2017 UTC = Sat Feb 18 23:59:59 2017 BRST isdst=1
+Brazil/East  Sun Feb 19 02:00:00 2017 UTC = Sat Feb 18 23:00:00 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 02:59:59 2017 UTC = Sat Oct 14 23:59:59 2017 BRT isdst=0
+Brazil/East  Sun Oct 15 03:00:00 2017 UTC = Sun Oct 15 01:00:00 2017 BRST isdst=1
+Brazil/East  Sun Feb 18 01:59:59 2018 UTC = Sat Feb 17 23:59:59 2018 BRST isdst=1
+Brazil/East  Sun Feb 18 02:00:00 2018 UTC = Sat Feb 17 23:00:00 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 02:59:59 2018 UTC = Sat Oct 20 23:59:59 2018 BRT isdst=0
+Brazil/East  Sun Oct 21 03:00:00 2018 UTC = Sun Oct 21 01:00:00 2018 BRST isdst=1
+Brazil/East  Sun Feb 17 01:59:59 2019 UTC = Sat Feb 16 23:59:59 2019 BRST isdst=1
+Brazil/East  Sun Feb 17 02:00:00 2019 UTC = Sat Feb 16 23:00:00 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 02:59:59 2019 UTC = Sat Oct 19 23:59:59 2019 BRT isdst=0
+Brazil/East  Sun Oct 20 03:00:00 2019 UTC = Sun Oct 20 01:00:00 2019 BRST isdst=1
+Brazil/East  Sun Feb 16 01:59:59 2020 UTC = Sat Feb 15 23:59:59 2020 BRST isdst=1
+Brazil/East  Sun Feb 16 02:00:00 2020 UTC = Sat Feb 15 23:00:00 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 02:59:59 2020 UTC = Sat Oct 17 23:59:59 2020 BRT isdst=0
+Brazil/East  Sun Oct 18 03:00:00 2020 UTC = Sun Oct 18 01:00:00 2020 BRST isdst=1
+Brazil/East  Tue Jan 19 03:14:07 2038 UTC = Tue Jan 19 01:14:07 2038 BRST isdst=1
+Brazil/East  Mon Jan 18 03:14:07 2038 UTC = Mon Jan 18 01:14:07 2038 BRST isdst=1
+
+====== Data depois do comando zic ======
+Tue Jan 29 08:20:31 BRST 2013
+
+====== Variavel TZ depois do comando zic ======
+TZ=
+
+
+-rbash-4.2$ 

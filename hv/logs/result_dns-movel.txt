@@ -1,0 +1,46 @@
+Servidores movel
+
+root@br-spo-si-ns5 # date
+Sat Feb 16 11:15:24 BRST 2013
+
+SP-SPO-CTP-EDNS-06:~# date
+Sat Feb 16 11:15:45 BRST 2013
+
+RJ-RJO-MSJ-EDNS-06:~# date
+Sat Feb 16 11:16:00 BRST 2013
+
+RJ-RJO-MSJ-EDNS-07:~# date
+Sat Feb 16 11:15:09 BRST 2013
+
+[root@SP-SPO-TPE-EDNS-01]date
+Sat Feb 16 11:16:33 GMT 2013
+
+[root@SP-SPO-TPE-EDNS-02]date
+Sat Feb 16 11:16:42 GMT 2013
+
+[root@RJ-RJO-MSJ-EDNS-03]date
+Sat Feb 16 11:16:47 GMT 2013
+
+[root@RJ-RJO-MSJ-EDNS-04]date
+Sat Feb 16 11:16:58 GMT 2013
+
+root@RJ-RJO-BAR-PS-eDNS-01 # date
+Sat Feb 16 11:17:10 BRST 2013
+
+root@RJ-RJO-BAR-PS-iDNS-01 # date
+Sat Feb 16 11:17:27 CST 2013
+
+root@SP-SPO-CTP-PS-EDNS-01 # date
+Sat Feb 16 11:17:45 GMT 2013
+
+root@SP-SPO-CTP-PS-IDNS-01 # date
+Sat Feb 16 11:17:55 GMT 2013
+
+[root@RJ-RJO-BAR-IDNS-03]date
+Sat Feb 16 11:18:04 GMT 2013
+
+[root@SP-SPO-TPE-IDNS-01]date
+Sat Feb 16 11:18:18 GMT 2013
+
+[root@SP-SPO-BRN-IDNS-02]date
+Sat Feb 16 11:18:21 GMT 2013

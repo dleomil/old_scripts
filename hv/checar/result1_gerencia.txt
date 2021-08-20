@@ -1,0 +1,62 @@
+echo '====== Hostname ======'
+====== Hostname ======
+-bash-3.00$ hostname
+br-bre-cis-rd-isp01
+-bash-3.00$ echo
+
+-bash-3.00$ echo
+
+-bash-3.00$ date
+domingo, 17 de fevereiro de 2013 00h03min20s BRT
+-bash-3.00$ echo
+
+-bash-3.00$ echo
+
+-bash-3.00$ exit
+logout
+-rbash-4.2$ echo '====== Hostname ======'
+====== Hostname ======
+$ hostname
+br-spo-ib-rd-isp01
+$ echo
+
+$ echo
+
+$ date
+Sun Feb 17 00:03:21 BRT 2013
+$ echo
+
+$ echo
+
+$ exit
+-rbash-4.2$ echo '====== Hostname ======'
+====== Hostname ======
+-bash-3.00$ hostname
+br-psa-cis-ca01
+-bash-3.00$ echo
+
+-bash-3.00$ echo
+
+-bash-3.00$ date
+Sun Feb 17 00:04:11 BRT 2013
+-bash-3.00$ echo
+
+-bash-3.00$ echo
+
+-bash-3.00$ exit
+logout
+-rbash-4.2$ echo '====== Hostname ======'
+====== Hostname ======
+$ hostname
+gbrnetback
+$ echo
+
+$ echo
+
+$ date
+Sun Feb 17 00:04:29 EST 2013
+$ echo
+
+$ echo
+
+$ exit

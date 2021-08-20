@@ -1,0 +1,15 @@
+echo '====== Hostname ======'
+====== Hostname ======
+PortAuthority18
+
+
+Sat Feb 16 23:46:24 BRT 2013
+
+
+====== Hostname ======
+HA-USS
+
+
+Sat Feb 16 23:46:25 BRT 2013
+
+
